@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom engineering grid background */
+.bg-tech-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-dot-matrix {
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(56, 189, 248, 0.12) 1px, transparent 1px);
+}
+

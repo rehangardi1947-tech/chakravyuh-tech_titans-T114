@@ -1,0 +1,7 @@
+{
+  "name": "ENTCverse Hub",
+  "description": "Hybrid electronics learning and equipment rental platform for Electronics and Telecommunication Engineering students, labs, and hobbyists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
